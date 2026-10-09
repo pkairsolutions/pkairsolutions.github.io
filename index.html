@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PK Air Solutions provides agricultural drone spraying, drone sales and agricultural drone servicing in Vellore, Tamil Nadu.">
+  <meta name="theme-color" content="#123c2b">
+  <title>PK Air Solutions | Agricultural Drone Solutions</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #20352a;
+      line-height: 1.6;
+      background: #f7faf6;
+    }
+    header {
+      background: #123c2b;
+      color: white;
+      padding: 20px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    header a { color: white; text-decoration: none; }
+    .brand { font-size: 22px; font-weight: bold; }
+    nav { display: flex; gap: 18px; flex-wrap: wrap; }
+    .hero {
+      padding: 85px 7%;
+      background: linear-gradient(135deg, #e4f3dc, #f8fbf4);
+    }
+    .hero h1 {
+      font-size: clamp(34px, 6vw, 58px);
+      line-height: 1.12;
+      max-width: 760px;
+      margin: 12px 0;
+    }
+    .hero p { max-width: 620px; font-size: 18px; }
+    .button {
+      display: inline-block;
+      background: #247444;
+      color: white;
+      padding: 12px 22px;
+      margin: 10px 8px 0 0;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { padding: 55px 7%; }
+    h2 { font-size: 30px; margin-top: 0; }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .service {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid #e1e9df;
+    }
+    .service h3 { color: #247444; }
+    .contact { background: #e8f2e5; }
+    footer {
+      background: #123c2b;
+      color: white;
+      padding: 24px 7%;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="brand" href="#">PK Air Solutions</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p><strong>SMART DRONE SOLUTIONS</strong></p>
+      <h1>Transforming Agriculture with Drone Technology</h1>
+      <p>
+        Modern agricultural drone spraying, drone servicing and
+        dealership solutions designed to support farmers and
+        advance precision agriculture.
+      </p>
+      <a class="button"
+         href="https://wa.me/918489530498">
+        Enquire on WhatsApp
+      </a>
+      <a class="button" href="#services">Explore Services</a>
+    </section>
+
+    <section id="about">
+      <h2>Connecting the Future, Today.</h2>
+      <p>
+        PK Air Solutions is focused on practical drone solutions
+        for agriculture, with plans to grow into broader drone
+        technology and related services.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services">
+        <article class="service">
+          <h3>🌾 Agricultural Spraying</h3>
+          <p>Drone-based crop spraying services for agricultural needs.</p>
+        </article>
+        <article class="service">
+          <h3>🛠️ Drone Servicing</h3>
+          <p>Maintenance and servicing support for agricultural drones.</p>
+        </article>
+        <article class="service">
+          <h3>🚁 Drone Sales</h3>
+          <p>Enquire about agricultural drone models and availability.</p>
+        </article>
+        <article class="service">
+          <h3>💡 Future Technologies</h3>
+          <p>Expanding towards innovative drone and technology solutions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact PK Air Solutions</h2>
+      <p><strong>Phone:</strong> +91 84895 30498</p>
+      <p><strong>Address:</strong> 5/158, Minnal Nagar,
+        Poigai Mottur, Anaicut Taluk, Vellore, Tamil Nadu.</p>
+      <a class="button" href="tel:+918489530498">Call Us</a>
+      <a class="button"
+         href="https://wa.me/918489530498">
+        WhatsApp Us
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>PK Air Solutions | Connecting the Future, Today.</p>
+    <p>© <span id="year"></span> PK Air Solutions</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
