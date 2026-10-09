@@ -31,6 +31,7 @@
     }
     a { color: inherit; }
     img { max-width: 100%; display: block; }
+    .company-logo {width: 48px;height: 48px;object-fit: contain;display: block;}
     .container { width: min(var(--max), calc(100% - 40px)); margin-inline: auto; }
     .announcement { background: var(--green-950); color: #e9f5e9; font-size: .85rem; text-align: center; padding: 8px 14px; }
     .announcement strong { color: var(--lime); }
@@ -194,7 +195,10 @@
     <div class="container nav">
       <a class="brand" href="#home" aria-label="PK Air Solutions home">
         <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 32 32" fill="none"><path d="M16 12v8M12 16h8M7 10l5 4m13-4-5 4M7 22l5-4m13 4-5-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="6.5" cy="8.5" r="3" stroke="currentColor" stroke-width="2"/><circle cx="25.5" cy="8.5" r="3" stroke="currentColor" stroke-width="2"/><circle cx="6.5" cy="23.5" r="3" stroke="currentColor" stroke-width="2"/><circle cx="25.5" cy="23.5" r="3" stroke="currentColor" stroke-width="2"/><rect x="12" y="12" width="8" height="8" rx="2" stroke="currentColor" stroke-width="2"/></svg>
+          <img
+            src="./images/logo.png"
+            alt="PK Air Solutions Logo"
+            class="company-logo">
         </span>
         <span class="brand-name">PK AIR SOLUTIONS<span>CONNECTING THE FUTURE, TODAY.</span></span>
       </a>
